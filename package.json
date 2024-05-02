@@ -1,7 +1,7 @@
 {
     "name": "minecraft-lands-launcher",
     "preductname": "Minecraft Lands",
-    "version": "2.7.0",
+    "version": "2.7.1",
     "description": "Launcher Mincraft pour Minecraft Lands",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "https://download.mclands.games/new",
+    "url": "https://download.mclands.games/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
